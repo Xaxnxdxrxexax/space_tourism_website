@@ -1,6 +1,7 @@
 import "~/styles/globals.css";
 
 import { Bellefair, Barlow_Condensed, Barlow } from "next/font/google";
+import Header from "./ui/header";
 
 const bellefair = Bellefair({
   subsets: ["latin"],
@@ -34,8 +35,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`font-sans ${bellefair.variable} ${barlow.variable} ${barlowCondensed.variable}`}
+        className={`font-sans ${bellefair.variable} ${barlow.variable} ${barlowCondensed.variable} h-full w-full`}
       >
+        <Header />
         {children}
       </body>
     </html>
