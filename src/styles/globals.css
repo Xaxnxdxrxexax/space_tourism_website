@@ -1,3 +1,35 @@
 @tailwind base;
+
+/* @layer base {
+  h1 {
+    @apply font-bellefair text-Fm-white text-[9.375rem] uppercase;
+  }
+  h2 {
+    @apply font-bellefair text-Fm-white text-[6.25rem] uppercase;
+  }
+  h3 {
+    @apply font-bellefair text-Fm-white text-[3.5rem] uppercase;
+  }
+  h4 {
+    @apply font-bellefair text-Fm-white text-[2rem] uppercase;
+  }
+  h5 {
+    @apply font-barlowCondensed text-Fm-light-blue text-[1.75rem] uppercase tracking-[4.725px];
+  }
+  p {
+    @apply font-barlow text-Fm-white text-[1.125rem] leading-8;
+  }
+} */
 @tailwind components;
+/* @layer components {
+  .subHeadingOne {
+    @apply font-bellefair text-Fm-white text-[1.75rem] uppercase;
+  }
+  .subHeadingTwo {
+    @apply font-barlowCondensed text-Fm-white text-[0.875rem] uppercase tracking-[2.35px];
+  }
+  .navText {
+    @apply font-barlowCondensed text-Fm-white text-[1rem] uppercase tracking-[2.7px];
+  }
+} */
 @tailwind utilities;
