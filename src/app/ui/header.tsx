@@ -15,10 +15,10 @@ export default function Header() {
   const pathname = usePathname();
   const [isActive, setIsActive] = useState(false);
   return (
-    <header className="absolute flex w-full items-center justify-between px-6 pt-6 text-white md:px-10 lg:mt-8 lg:px-14">
+    <header className="absolute flex w-full max-w-[1440px] items-center justify-between px-6 pt-6 text-white md:px-10 lg:mt-8 lg:grow-0 lg:px-14">
       <Link
         href={"#main"}
-        className="absolute top-0 z-50 mx-auto -translate-y-full transform bg-white p-3 text-black focus:translate-y-1/2"
+        className="absolute top-0 z-50 mx-auto -translate-y-[200%] transform bg-white p-3 text-black focus:translate-y-1/2"
       >
         Skip to main content
       </Link>
@@ -43,7 +43,7 @@ export default function Header() {
       <nav
         className={clsx(
           isActive ? "translate-x-0" : "translate-x-full",
-          "fixed left-1/3 right-0 top-0 z-30 h-screen bg-white/5 backdrop-blur-lg transition-transform sm:visible sm:left-[20%] sm:right-0 sm:h-24 sm:translate-x-0 lg:left-[43%] lg:mt-8",
+          "fixed left-1/3 right-0 top-0 z-30 h-screen bg-white/5 backdrop-blur-lg transition-transform sm:visible sm:left-[20%] sm:h-24 sm:translate-x-0 lg:left-[43%] lg:mt-8",
         )}
       >
         <ul

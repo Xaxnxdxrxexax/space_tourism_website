@@ -33,9 +33,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="">
       <body
-        className={`font-sans ${bellefair.variable} ${barlow.variable} ${barlowCondensed.variable} min-h-screen`}
+        className={`font-sans ${bellefair.variable} ${barlow.variable} ${barlowCondensed.variable} relative min-h-screen `}
       >
         <Header />
         {children}
