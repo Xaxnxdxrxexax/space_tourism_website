@@ -20,7 +20,7 @@ export default function Technology() {
         </h1>
         <div className="relative aspect-video w-full">
           <Image
-            src={`/${images.portrait}`}
+            src={`${images.portrait}`}
             alt={`technology ${name}`}
             fill
             sizes="(100vw, 100vh)"

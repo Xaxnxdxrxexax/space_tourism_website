@@ -20,7 +20,7 @@ export default function Crew() {
         </h1>
         <div className="relative aspect-square w-44">
           <Image
-            src={`/${images.webp}`}
+            src={`${images.webp}`}
             alt={`crew ${name}`}
             fill
             sizes="(100vw, 100vh)"
