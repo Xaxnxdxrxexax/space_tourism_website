@@ -16,6 +16,12 @@ export default function Header() {
   const [isActive, setIsActive] = useState(false);
   return (
     <header className="absolute flex w-full items-center justify-between px-6 pt-6 text-white md:px-10 lg:mt-8 lg:px-14">
+      <Link
+        href={"#main"}
+        className="absolute top-0 z-50 mx-auto -translate-y-full transform bg-white p-3 text-black focus:translate-y-1/2"
+      >
+        Skip to main content
+      </Link>
       <div className="relative h-10 w-10 md:h-12 md:w-12 lg:flex lg:items-center">
         <Image src={"/assets/shared/logo.svg"} alt="logo" fill />
         <div className="invisible lg:visible lg:absolute lg:z-20 lg:ml-40 lg:w-[clamp(473px,300%,500px)] lg:border-b lg:border-white/20"></div>
@@ -49,7 +55,10 @@ export default function Header() {
             className={clsx(linkClass, {
               "border-b border-Fm-white": pathname === `/`,
             })}
-            onClick={() => setIsActive(false)}
+            onClick={() => {
+              setIsActive(false);
+              window.scrollTo(0, 0);
+            }}
           >
             <span
               className="mr-3 font-barlowCondensed text-sm font-bold tracking-[2.7px] sm:invisible sm:absolute lg:visible lg:static"
@@ -66,7 +75,10 @@ export default function Header() {
               className={clsx(linkClass, {
                 "border-b border-Fm-white": pathname === `/${key}`,
               })}
-              onClick={() => setIsActive(false)}
+              onClick={() => {
+                setIsActive(false);
+                window.scrollTo(0, 0);
+              }}
             >
               <span
                 className="mr-3 font-barlowCondensed text-sm font-bold tracking-[2.7px] sm:invisible sm:absolute lg:visible lg:static"

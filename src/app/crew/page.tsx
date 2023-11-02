@@ -10,7 +10,10 @@ export default function Crew() {
   const [currentCrew, setCurrentCrew] = useState(0);
   const { bio, images, name, role } = crew[currentCrew]!;
   return (
-    <main className="grid min-h-screen overflow-hidden bg-[url('/assets/crew/background-crew-mobile.jpg')] bg-cover bg-center bg-no-repeat pt-28 text-white [grid-template-rows:min-content_1fr] md:bg-[url('/assets/crew/background-crew-tablet.jpg')] md:pt-52 lg:min-h-[900px] lg:bg-[url('/assets/crew/background-crew-desktop.jpg')] lg:pt-96">
+    <main
+      id="main"
+      className="grid min-h-screen overflow-hidden bg-[url('/assets/crew/background-crew-mobile.jpg')] bg-cover bg-center bg-no-repeat pt-28 text-white [grid-template-rows:min-content_1fr] md:bg-[url('/assets/crew/background-crew-tablet.jpg')] md:pt-52 lg:min-h-[900px] lg:bg-[url('/assets/crew/background-crew-desktop.jpg')] lg:pt-96"
+    >
       <article className="grid grid-cols-1 place-items-center">
         <h1>
           <span>01</span>meet your crew
