@@ -41,7 +41,7 @@ export default function Technology() {
               key={i}
               onClick={() => setCurrentTechnology(i)}
               className={clsx(
-                "flex h-8 w-8 items-center justify-center rounded-full border border-white/30 md:h-14 md:w-14 md:text-lg lg:h-20 lg:w-20 lg:text-2xl",
+                "flex h-8 w-8 cursor-pointer items-center justify-center rounded-full border border-white/30 md:h-14 md:w-14 md:text-lg lg:h-20 lg:w-20 lg:text-2xl",
                 currentTechnology === i
                   ? "bg-white text-black"
                   : "bg-transparent text-white",
