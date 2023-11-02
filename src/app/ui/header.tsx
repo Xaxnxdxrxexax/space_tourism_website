@@ -24,9 +24,9 @@ export default function Header() {
         aria-controls="primary-navigation"
         className={clsx(
           isActive
-            ? "bg-[url('/assets/shared/icon-close.svg')]"
+            ? "fixed right-8 bg-[url('/assets/shared/icon-close.svg')]"
             : "bg-[url('/assets/shared/icon-hamburger.svg')]",
-          "z-40 h-[21px] w-[24px] cursor-pointer bg-no-repeat sm:hidden",
+          "z-40 h-[21px] w-[24px] cursor-pointer bg-center bg-no-repeat sm:hidden",
         )}
         onClick={() => setIsActive(!isActive)}
       >
@@ -49,6 +49,7 @@ export default function Header() {
             className={clsx(linkClass, {
               "border-b border-Fm-white": pathname === `/`,
             })}
+            onClick={() => setIsActive(false)}
           >
             <span
               className="mr-3 font-barlowCondensed text-sm font-bold tracking-[2.7px] sm:invisible sm:absolute lg:visible lg:static"
@@ -65,6 +66,7 @@ export default function Header() {
               className={clsx(linkClass, {
                 "border-b border-Fm-white": pathname === `/${key}`,
               })}
+              onClick={() => setIsActive(false)}
             >
               <span
                 className="mr-3 font-barlowCondensed text-sm font-bold tracking-[2.7px] sm:invisible sm:absolute lg:visible lg:static"
