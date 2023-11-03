@@ -33,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="">
+    <html lang="en" className="bg-Fm-black">
       <body
         className={`font-sans ${bellefair.variable} ${barlow.variable} ${barlowCondensed.variable} relative min-h-screen `}
       >
