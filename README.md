@@ -1,5 +1,7 @@
 # Multipage space tourism website
 
+Mock landing page with complex responsive grid and flex layout, each page getting data from a JSON file, all typesafe.
+
 ## 375px
 
 ![mobile](<./public/assets/screenshots/localhost_3000_(7).png>)
