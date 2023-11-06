@@ -12,7 +12,7 @@ export default function Crew() {
   return (
     <main
       id="main"
-      className="grid min-h-screen overflow-hidden bg-[url('/assets/crew/background-crew-mobile.jpg')] bg-cover bg-center bg-no-repeat pt-[88px] text-white [grid-template-rows:min-content_1fr] sm:pt-32 md:bg-[url('/assets/crew/background-crew-tablet.jpg')] md:pl-[28.5px] md:pt-[136px] lg:min-h-[900px] lg:bg-[url('/assets/crew/background-crew-desktop.jpg')] lg:pl-40 lg:pt-[212px]"
+      className="grid h-screen overflow-hidden bg-[url('/assets/crew/background-crew-mobile.jpg')] bg-cover bg-center bg-no-repeat pt-[88px] text-white [grid-template-rows:min-content_1fr] sm:pt-32 md:bg-[url('/assets/crew/background-crew-tablet.jpg')] md:pl-[28.5px] md:pt-[136px] lg:min-h-[900px] lg:bg-[url('/assets/crew/background-crew-desktop.jpg')] lg:pl-40 lg:pt-[212px]"
     >
       <article className="grid grid-cols-1 place-items-center lg:grid-cols-2 lg:grid-rows-[min-content_1fr_min-content]">
         <h1 className="font-barlowCondensed text-sm font-normal uppercase tracking-[2.7px] md:order-1 md:place-self-start md:text-[1.25rem] md:tracking-[3.375px] lg:order-1 lg:col-start-1 lg:col-end-3 lg:text-xl lg:tracking-[4.725px]">
