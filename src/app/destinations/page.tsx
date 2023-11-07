@@ -15,7 +15,7 @@ export default function Destinations() {
   return (
     <main
       id="main"
-      className="grid h-screen overflow-hidden bg-[url('/assets/destination/background-destination-mobile.jpg')] bg-cover bg-bottom bg-no-repeat pt-[5.5625rem] text-white [grid-template-rows:min-content_1fr] sm:pt-32 md:bg-[url('/assets/destination/background-destination-tablet.jpg')] md:px-10 md:pt-36 lg:min-h-[900px] lg:bg-[url('/assets/destination/background-destination-desktop.jpg')] lg:px-[10.375rem] lg:pt-[13.25rem]"
+      className="grid min-h-screen bg-[url('/assets/destination/background-destination-mobile.jpg')]   bg-cover bg-bottom bg-no-repeat pt-[5.5625rem] text-white [grid-template-rows:min-content_1fr] sm:pt-32 md:bg-[url('/assets/destination/background-destination-tablet.jpg')] md:px-10 md:pt-36 lg:h-screen lg:min-h-[900px] lg:bg-[url('/assets/destination/background-destination-desktop.jpg')] lg:px-[10.375rem] lg:pt-[13.25rem]"
     >
       <article className="grid grid-cols-1 place-items-center lg:grid-cols-2">
         <h1 className="font-barlowCondensed text-sm font-normal uppercase tracking-[2.7px] md:place-self-start md:text-[1.25rem] md:tracking-[3.375px] lg:col-span-2 lg:text-xl lg:tracking-[4.725px]">

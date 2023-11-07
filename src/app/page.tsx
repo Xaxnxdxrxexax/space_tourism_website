@@ -4,7 +4,7 @@ export default function HomePage() {
   return (
     <main
       id="main"
-      className="grid h-screen overflow-hidden bg-[url('/assets/home/background-home-mobile.jpg')] bg-cover bg-bottom bg-no-repeat pt-28 text-white [grid-template-rows:min-content_1fr] md:bg-[url('/assets/home/background-home-tablet.jpg')] md:pt-52 lg:min-h-[900px] lg:bg-[url('/assets/home/background-home-desktop.jpg')] lg:pt-96"
+      className="grid min-h-screen bg-[url('/assets/home/background-home-mobile.jpg')] bg-cover bg-bottom bg-no-repeat pt-28 text-white [grid-template-rows:min-content_1fr] md:bg-[url('/assets/home/background-home-tablet.jpg')] md:pt-52 lg:h-screen lg:min-h-[900px] lg:bg-[url('/assets/home/background-home-desktop.jpg')] lg:pt-96"
     >
       <article className="my-12 grid grid-cols-1 place-items-center gap-y-20 px-6 text-center md:mb-[5.625rem] md:mt-[6.625rem] lg:mx-[10.3125rem] lg:mt-0 lg:h-full lg:grid-cols-2 lg:grid-rows-1 lg:px-0 lg:pb-32">
         <div className="space-y-4 md:mx-[9.9375rem] lg:place-self-end">

@@ -12,7 +12,7 @@ export default function Technology() {
   return (
     <main
       id="main"
-      className="grid h-screen overflow-hidden bg-[url('/assets/technology/background-technology-mobile.jpg')] bg-cover bg-bottom bg-no-repeat pb-14 pt-[88px] text-white [grid-template-rows:min-content_1fr] sm:pt-32 md:bg-[url('/assets/technology/background-technology-tablet.jpg')] md:pt-32 lg:min-h-[900px] lg:bg-[url('/assets/technology/background-technology-desktop.jpg')] lg:pt-56"
+      className="grid min-h-screen bg-[url('/assets/technology/background-technology-mobile.jpg')]   bg-cover bg-bottom bg-no-repeat pb-14 pt-[88px] text-white [grid-template-rows:min-content_1fr] sm:pt-32 md:bg-[url('/assets/technology/background-technology-tablet.jpg')] md:pt-32 lg:h-screen lg:min-h-[900px] lg:bg-[url('/assets/technology/background-technology-desktop.jpg')] lg:pt-56"
     >
       <article className="grid grid-cols-1 place-items-center md:pb-24 lg:grid-cols-[min-content_1fr_1fr] lg:grid-rows-[min-content_1fr] lg:pl-36">
         <h1 className="font-barlowCondensed text-sm font-normal uppercase tracking-[2.7px] md:place-self-start md:pl-9 md:text-[1.25rem] md:tracking-[3.375px] lg:order-1 lg:col-span-full lg:pl-0 lg:text-xl lg:tracking-[4.725px]">
